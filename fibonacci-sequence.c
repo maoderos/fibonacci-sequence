@@ -26,7 +26,7 @@ int main() {
           unsigned long long int num2 = sequence[(i - 2)];
           unsigned long long int result = num1 + num2;
           sequence[i] = result;
-          fprintf(file, "%lli ", sequence[i]);
+          fprintf(file, "%llu ", sequence[i]);
         }
       }
       fclose(file);
